@@ -1,14 +1,9 @@
-# Sub Organization Name
+# Yellowbrick
 
 ## Mentors
 
-Please list the names of available mentors
-
+Dr. Rebecca Bilbro, Dr. Benjamin Bengfort, Larry W. Gray
 ## Information for Students 
-
-If you have special information / instructions for an application you should
-list/link to it here. If not you can delete it. Please keep in mind that we
-do have some general instructions for students.
 
 ## Project Ideas
 
