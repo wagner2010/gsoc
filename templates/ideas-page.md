@@ -90,7 +90,7 @@ The student would work to add a Probabilistic Calibration Curve Visualizer for T
 
 | **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
 | -------------                          | ------------              | ------------- | -----------              |
-| {{ Novice}}                            | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
+| {{ Novice}}                            | {{ Low}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
 The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the fit(), score(), and poof() methods that creates a main calibration curve graph and a mean predicted value line graph.  See http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html and the initial probability calibration curve issue (https://github.com/DistrictDataLabs/yellowbrick/issues/365).
