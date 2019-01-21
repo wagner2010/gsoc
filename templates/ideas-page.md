@@ -2,7 +2,7 @@
 
 ## Mentors
 
-Dr. Rebecca Bilbro, Dr. Benjamin Bengfort, Larry W. Gray, Adam Morris (Backup mentor)
+Dr. Rebecca Bilbro, Dr. Benjamin Bengfort, Dr. Lawrence W. Gray, Nathan Danielson, Adam Morris (Backup mentor)
 ## Information for Students 
 
 ## Project Ideas
