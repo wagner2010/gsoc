@@ -43,7 +43,7 @@ An effect plot is a visual tool that aids in interpreting linear models.
 | {{ Moderate}}                          | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (ihttps://github.com/DistrictDataLabs/yellowbrick/issues/604)
+An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (https://github.com/DistrictDataLabs/yellowbrick/issues/604)
 
 #### Helpful Experience
 
@@ -68,7 +68,7 @@ The student would work to add a FeatureImportance Visualizer for Treebased Model
 | {{ Novice}}                          | {{ High}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (ihttps://github.com/DistrictDataLabs/yellowbrick/issues/604)
+An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (https://github.com/DistrictDataLabs/yellowbrick/issues/604)
 
 #### Helpful Experience
 
@@ -93,7 +93,7 @@ The student would work to add a Probabilistic Calibration Curve Visualizer for T
 | {{ Novice}}                          | {{ High}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (ihttps://github.com/DistrictDataLabs/yellowbrick/issues/604)
+An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (https://github.com/DistrictDataLabs/yellowbrick/issues/604)
 
 #### Helpful Experience
 
