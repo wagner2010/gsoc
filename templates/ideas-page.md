@@ -1,4 +1,4 @@
-# Yellowbrick
+# Yellowbrick Ideas List
 
 ## Mentors
 
