@@ -30,8 +30,8 @@ To help you navigate these projects, we have broken them down by topic area:
 - [Pipeline-support](#Pipeline-support)
 - [PCA Visualizer strengthening](#PCA Visualizer-strengthening) 
 - [Effect Plot for linear models](#Effect Plot for linear models)
-- [Classification Visualizer improvement through calibration curve for tree-based models](#Tree-based models support)
-- [Write a blogpost](#Marketing, research and publication)
+- [Tree-based models support](#Tree-based models support)
+- [Marketing, research and publication](#Marketing, research and publication)
 
 ## Gridsearch-expansion
 ###  Finish GridSearch Color Plot
