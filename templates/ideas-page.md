@@ -2,9 +2,12 @@
 
 ## Mentors
 
-Dr. Rebecca Bilbro @, Dr. Benjamin Bengfort @, Dr. Lawrence W. Gray @, Nathan Danielson @, Adam Morris (Backup mentor)@wagner2010
-## Information for Students 
+Dr. Rebecca Bilbro [@rebeccabilbro](https://github.com/rebeccabilbro), Dr. Benjamin Bengfort [@bbengfort](https://github.com/bbengfort), Dr. Lawrence W. Gray [@lwgray](https://github.com/lwgray), Nathan Danielsen [@ndanielsen](https://github.com/ndanielsen), Adam Morris (Backup mentor) [@wagner2010] (https://github.com/wagner2010)
 
+## Welcome to Yellowbrick (Information for Students)
+Welcome to [Yellowbrick](http://www.scikit-yb.org/en/latest/)!  We are glad you're here and we're excited about the prospect of working together this summer through Google's 2019 Summer of Code (https://summerofcode.withgoogle.com) program.  So what is Yellowbrick?  [Yellowbrick] (https://github.com/DistrictDataLabs/yellowbrick) is a completely open-sourced Python based visualization library that is designed to facilitate visualization and machine learning.  Yellowbrick is helpful for performing exploratory data analysis, machine learning tasks (classification to regression to clustering and text based analysis). What sets Yellowbrick apart are our instructive visualizations which support a concept that we call [visual steering](http://www.scikit-yb.org/en/latest/gallery.html).  We strongly believe that these visualizations will provide data scientists the added value when they are doing their machine learning that can help them better see the data, improve their hyperparameter tuning and thereby obtain better results.  **Our goal is to become synonmyous with machine learning.  This is where you come in.**     
+## About Us
+Yellowbrick is an open-sourced Python based project supported by a core group of contributors primarily based in Washington, D.C. but with reach in Los Angeles and around the globe.  Through our GitHub we are able to contribute with and interact with users worldwide.  We are a diverse fun loving group that values positivity, constructive feedback, respect, learning and support.  Every contribution, no matter its size and scope, matters to us and each contributor is important.  You can read more about our Code of Conduct here (http://www.scikit-yb.org/en/latest/code_of_conduct.html).  
 ## Project Ideas
 
 ###  Idea Title 
@@ -18,7 +21,7 @@ Provide an optional heatmap and color bar underneath the PCA visualizer (by shif
 | {{ Moderate}}                          | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component.  More information about this project can be found at (https://github.com/DistrictDataLabs/yellowbrick/issues/615)
+Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component.  More information about this project can be found [here](https://github.com/DistrictDataLabs/yellowbrick/issues/615)
 
 
 ###  Idea Title 
