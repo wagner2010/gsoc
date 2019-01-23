@@ -26,14 +26,14 @@ Knowledge of Python is required to complete all projects.  Familiarity with mach
 So what are the projects that we have in mind for summer 2019?  Yellowbrick's current release version is at Version 0.9.  We have a road map and are highly motivated to get us to 1.0.  The following projects help us move towards that 1.0 mark addressing key areas such as gridsearch, pipeline support, expanded tree based model support, improved PCA visualizer and marketing/promotion of Yellowbrick.  Are goals are to support you this summer while helping Yellowbrick advance forward. 
 To help you navigate these projects, we have broken them down by topic area:
 
-- [Gridsearch-expansion](Gridsearch-expansion)
-- [Pipeline-support](Pipeline-support)
-- [PCA Visualizer strengthening](PCA-Visualizer-strengthening) 
-- [Effect Plot for linear models](Effect Plot for linear models)
-- [Classification Visualizer improvement through calibration curve for tree-based models](Tree-based models support)
-- [Write a blogpost](marketing, research and publication)
+- [Gridsearch-expansion](#Gridsearch-expansion)
+- [Pipeline-support](#Pipeline-support)
+- [PCA Visualizer strengthening](#PCA-Visualizer-strengthening) 
+- [Effect Plot for linear models](#Effect Plot for linear models)
+- [Classification Visualizer improvement through calibration curve for tree-based models](#Tree-based models support)
+- [Write a blogpost](#marketing, research and publication)
 
-# Gridsearch-expansion
+## Gridsearch-expansion
 ###  Finish GridSearch Color Plot
 #### Abstract
 
@@ -47,7 +47,7 @@ The student would complete a GridSearch Visualizer's steps as follows: create a 
 #### Technical Details
 The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue (https://github.com/DistrictDataLabs/yellowbrick/pull/261).  More examples and information can be    For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/308).
 
-# Pipeline-support
+## Pipeline-support
 
 ###  Allow model visualizer to Wrap Pipeline objects
 #### Abstract
@@ -63,7 +63,7 @@ The student would work to modify the ModelVisualizer
 #### Technical Details
 The student would work to change the ModelVisualizer.estimator attribute to a @property.  NOTE however that we will still have to fit(), predict(), and score() on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be is_pipeline() checking and other estimator access utilities.  For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/498).
 
-# PCA Visualizer-strengthening
+## PCA Visualizer-strengthening
 ###   Enhance Principal Component Analysis (PCA) Decompisition
 #### Abstract
 
@@ -100,7 +100,7 @@ The student would work to provide an optional heatmap and color bar underneath t
 #### Technical Details
 Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component. For more information on this project, please reference this issue  (https://github.com/DistrictDataLabs/yellowbrick/issues/615).  
 
-# Effect Plot for linear models
+## Effect Plot for linear models
 ### Create Effect Plot for linear models 
 #### Abstract
 
@@ -113,7 +113,7 @@ An effect plot is a visual tool that aids in interpreting linear models.
 #### Technical Details
 An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found here (https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found at (https://github.com/DistrictDataLabs/yellowbrick/issues/604)
 
-# Tree-based models support
+## Tree-based models support
 ###  Add Support for Probabilistic Calibration Curve for Tree-based Models.
 #### Abstract
 
@@ -126,7 +126,7 @@ The student would work to add a Probabilistic Calibration Curve Visualizer for T
 #### Technical Details
 The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the fit(), score(), and poof() methods that creates a main calibration curve graph and a mean predicted value line graph.  See http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html and the initial probability calibration curve issue (https://github.com/DistrictDataLabs/yellowbrick/issues/365).
 
-# Marketing, research and publication
+## Marketing, research and publication
 ###  Write blogpost highlighting Yellowbrick for a Machine Learning project.
 #### Abstract
 
