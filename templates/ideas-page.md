@@ -60,7 +60,7 @@ The student would work to modify the ModelVisualizer [code is available here](ht
 | {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student would work to change the ModelVisualizer.estimator attribute to a @property.  NOTE however that we will still have to fit(), predict(), and score() on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be is_pipeline() checking and other estimator access utilities.  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
+The student would work to change the ModelVisualizer.estimator attribute to a @property.  NOTE however that we will still have to **fit(), predict(), and score()** on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be **is_pipeline()** checking and other estimator access utilities.  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
 
 ## PCA-Visualizer-strengthening
 ###   Enhance Principal Component Analysis (PCA) Decompisition
@@ -123,7 +123,7 @@ The student would work to add a Probabilistic Calibration Curve Visualizer for T
 | {{ Novice}}                            | {{ Low}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the fit(), score(), and poof() methods that creates a main calibration curve graph and a mean predicted value line graph.  See the class-balance documentation [here](http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html) and the initial probability calibration curve issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/365).
+The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the **fit(), score(), and poof()** methods that creates a main calibration curve graph and a mean predicted value line graph.  See the class-balance documentation [here](http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html) and the initial probability calibration curve issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/365).
 
 ## Marketing-research-and-publication
 ###  Write blogpost highlighting Yellowbrick for a Machine Learning project.
