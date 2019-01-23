@@ -9,7 +9,8 @@ Welcome to [Yellowbrick](http://www.scikit-yb.org/en/latest/)!  We are glad you'
 ## About Us
 Yellowbrick is an open-sourced Python based [NumFOCUS affiliated](https://numfocus.org/sponsored-projects/affiliated-projects) project supported by a core group of contributors primarily based in Washington, D.C. but with reach in Los Angeles and around the globe.  Yellowbrick was cofounded by Dr. Rebecca Bilbro [@rebeccabilbro](https://github.com/rebeccabilbro) and Dr. Benjamin Bengfort [@bbengfort](https://github.com/bbengfort)  when they saw a need for visual machine learning plots.  Through our GitHub we are able to contribute with and interact with users worldwide.  We are a diverse fun loving group that values positivity, constructive feedback, respect, learning and support.  Every contribution, no matter its size and scope, matters to us and each contributor is important.  You can read more about our [Code of Conduct](http://www.scikit-yb.org/en/latest/code_of_conduct.html).  For an awesome slide deck primer on Yellowbrick, [click here](https://www.slideshare.net/BenjaminBengfort/visualizing-model-selection-with-scikityellowbrick-an-introduction-to-developing-visualizers)  
 ![the gang](https://github.com/wagner2010/gsoc/blob/wagner2010-patch-1/templates/fullsizeoutput_10c8.jpeg)
-
+![the gang](https://github.com/wagner2010/gsoc/blob/wagner2010-patch-1/templates/IMG_4017.JPG?raw=true)
+![the gang](https://github.com/wagner2010/gsoc/blob/wagner2010-patch-1/templates/IMG_4018.JPG?raw=true)
 #### Helpful Experience
 
 Knowledge of Python is required to complete all projects.  Familiarity with machine learning and matplotlib is a plus.  We also value collaboration, communication and openness.
