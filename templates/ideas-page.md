@@ -110,15 +110,91 @@ Knowledge of Python is required to complete this project.  Familiarity with mach
 Finish GridSearch Color Plot
 #### Abstract
 
-The student would complete a GridSearch Visualizers steps as follows: create a test file and run tests.  Create integration tets by generating basic visualizations using the gridsearch visualizer.  Update documentation 
+The student would complete a GridSearch Visualizer's steps as follows: create a test file and run tests, create integration tets by generating basic visualizations using the gridsearch visualizer and update documentation to include all features. 
 
 
 | **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
 | -------------                          | ------------              | ------------- | -----------              |
-| {{ Novice}}                            | {{ High}} | {{ }}       | {{ [@foo][], [@bar][] }} |
+| {{ Medium}}                            | {{ High}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue (https://github.com/DistrictDataLabs/yellowbrick/pull/261).  More examples and information can   For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/691).
+The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue (https://github.com/DistrictDataLabs/yellowbrick/pull/261).  More examples and information can be    For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/308).
+
+#### Helpful Experience
+
+Knowledge of Python is required to complete this project.  Familiarity with machine learning and matplotlib is a plus.
+
+#### First steps
+
+1.)Install Yellowbrick on your machine.  Details on how to do this can be found here (https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
+2.)In order to get familiar with Yellowbrick, we recommend checking out examples here (https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
+3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
+###  Idea Title 
+Allow model visualizer to Wrap Pipeline objects
+#### Abstract
+
+The student would work to modify the ModelVisualizer 
+(https://github.com/DistrictDataLabs/yellowbrick/blob/develop/yellowbrick/base.py#L274) to change the ModelVisualizer.estimator attribute to a @property - when setting the estimator property, we can perform a check to ensure that the Pipeline has a final_estimator attribute (e.g. that it is not a transformer pipeline). 
+
+
+| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
+| -------------                          | ------------              | ------------- | -----------              |
+| {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
+
+#### Technical Details
+The student would work to change the ModelVisualizer.estimator attribute to a @property.  NOTE however that we will still have to fit(), predict(), and score() on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be is_pipeline() checking and other estimator access utilities.  For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/498).
+
+#### Helpful Experience
+
+Knowledge of Python is required to complete this project.  Familiarity with machine learning and matplotlib is a plus.
+
+#### First steps
+
+1.)Install Yellowbrick on your machine.  Details on how to do this can be found here (https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
+2.)In order to get familiar with Yellowbrick, we recommend checking out examples here (https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
+3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
+
+###  Idea Title 
+Enhance Principal Component Analysis (PCA) Decompisition
+#### Abstract
+
+The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.)
+
+
+| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
+| -------------                          | ------------              | ------------- | -----------              |
+| {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
+
+#### Technical Details
+The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue ( Color points by class with a legend (See #458) (https://github.com/DistrictDataLabs/yellowbrick/issues/458), Color points by heatmap for continuous y and add a colorbar, add alpha parameter see #475(https://github.com/DistrictDataLabs/yellowbrick/issues/475), add random state to pass to PCA, allow user to pass in a PCA transformer/pipeline, update tests with better random data sets (more points; see manifold tests) and include explained variance/noise variance (or explained variance ratio) in chart, and finally enance biplots in documentation. For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
+
+#### Helpful Experience
+
+Knowledge of Python is required to complete this project.  Familiarity with machine learning and matplotlib is a plus.
+
+#### First steps
+
+1.)Install Yellowbrick on your machine.  Details on how to do this can be found here (https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
+2.)In order to get familiar with Yellowbrick, we recommend checking out examples here (https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
+3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
+
+###  Idea Title 
+Extend PCA Visualizer with Component-Feature Strength
+#### Abstract
+
+The student would work to provide an optional heatmap and color bar underneath the PCA visuaqlizer (by shifting the lower axes) that highlights the magnitude of each feature value to the component.
+
+
+| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
+| -------------                          | ------------              | ------------- | -----------              |
+| {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
+
+#### Technical Details
+Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component. For more information on this project, please reference this issue  (https://github.com/DistrictDataLabs/yellowbrick/issues/615).  
+
 
 #### Helpful Experience
 
