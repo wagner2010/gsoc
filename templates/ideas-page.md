@@ -20,7 +20,7 @@ Knowledge of Python is required to complete all projects.  Familiarity with mach
 3. Install Yellowbrick on your machine.  Details on how to do this can be found [here](https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
 4. In order to get familiar with Yellowbrick, we recommend checking out [examples by clicking here](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
 5. We also have a [quick start guide](https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
-6. Please read the [contributor section](http://www.scikit-yb.org/en/latest/contributing.html)
+6. Please read the [contributor section](http://www.scikit-yb.org/en/latest/contributing.html).
 
 ## Project Ideas
 So what are the projects that we have in mind for summer 2019?  Yellowbrick's current release version is at Version 0.9.  We have a road map and are highly motivated to get us to 1.0.  The following projects help us move towards that 1.0 mark addressing key areas such as gridsearch, pipeline support, expanded tree based model support, improved PCA visualizer and marketing/promotion of Yellowbrick.  Are goals are to support you this summer while helping Yellowbrick advance forward. 
