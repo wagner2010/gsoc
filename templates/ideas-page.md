@@ -19,7 +19,7 @@ Knowledge of Python is required to complete all projects.  Familiarity with mach
 2. Check out our [GitHub repo](https://github.com/DistrictDataLabs/yellowbrick).  Don't forget to fork us and star us while you're there!   
 3. Install Yellowbrick on your machine.  Details on how to do this can be found [here](https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
 4. In order to get familiar with Yellowbrick, we recommend checking out [examples by clicking here](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
-5. We also have a [quick start guide](https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+5. Read and work through our [quick start guide](https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
 6. Please read the [contributor section](http://www.scikit-yb.org/en/latest/contributing.html).
 
 ## Project Ideas
