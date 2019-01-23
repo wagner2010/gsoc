@@ -7,10 +7,32 @@ Dr. Rebecca Bilbro [@rebeccabilbro](https://github.com/rebeccabilbro), Dr. Benja
 ## Welcome to Yellowbrick (Information for Students)
 Welcome to [Yellowbrick](http://www.scikit-yb.org/en/latest/)!  We are glad you're here and we're excited about the prospect of working together this summer through Google's 2019 Summer of Code (https://summerofcode.withgoogle.com) program.  So what is Yellowbrick?  [Yellowbrick] (https://github.com/DistrictDataLabs/yellowbrick) is a completely open-sourced Python based visualization library that is designed to facilitate visualization and machine learning.  Yellowbrick is helpful for performing exploratory data analysis, machine learning tasks (classification to regression to clustering and text based analysis). What sets Yellowbrick apart are our instructive visualizations which support a concept that we call [visual steering](http://www.scikit-yb.org/en/latest/gallery.html).  We strongly believe that these visualizations will provide data scientists the added value when they are doing their machine learning that can help them better see the data, improve their hyperparameter tuning and thereby obtain better results.  **Our goal is for Yellowbrick to become synonmyous with machine learning.  This is where you come in.**     
 ## About Us
-Yellowbrick is an open-sourced Python based [NumFOCUS affiliated](https://numfocus.org/sponsored-projects/affiliated-projects) project supported by a core group of contributors primarily based in Washington, D.C. but with reach in Los Angeles and around the globe.  Through our GitHub we are able to contribute with and interact with users worldwide.  We are a diverse fun loving group that values positivity, constructive feedback, respect, learning and support.  Every contribution, no matter its size and scope, matters to us and each contributor is important.  You can read more about our [Code of Conduct](http://www.scikit-yb.org/en/latest/code_of_conduct.html).  For an awesome slide deck primer on Yellowbrick, [click here](https://www.slideshare.net/BenjaminBengfort/visualizing-model-selection-with-scikityellowbrick-an-introduction-to-developing-visualizers)  
+Yellowbrick is an open-sourced Python based [NumFOCUS affiliated](https://numfocus.org/sponsored-projects/affiliated-projects) project supported by a core group of contributors primarily based in Washington, D.C. but with reach in Los Angeles and around the globe.  Yellowbrick was cofounded by Dr. Rebecca Bilbro [@rebeccabilbro](https://github.com/rebeccabilbro) and Dr. Benjamin Bengfort [@bbengfort](https://github.com/bbengfort)  when they saw a need for visual machine learning plots.  Through our GitHub we are able to contribute with and interact with users worldwide.  We are a diverse fun loving group that values positivity, constructive feedback, respect, learning and support.  Every contribution, no matter its size and scope, matters to us and each contributor is important.  You can read more about our [Code of Conduct](http://www.scikit-yb.org/en/latest/code_of_conduct.html).  For an awesome slide deck primer on Yellowbrick, [click here](https://www.slideshare.net/BenjaminBengfort/visualizing-model-selection-with-scikityellowbrick-an-introduction-to-developing-visualizers)  
 ![the gang](https://github.com/wagner2010/gsoc/blob/wagner2010-patch-1/templates/fullsizeoutput_10c8.jpeg)
+
+#### Helpful Experience
+
+Knowledge of Python is required to complete all projects.  Familiarity with machine learning and matplotlib is a plus.  We also value collaboration, communication and openness.
+
+#### First steps (for all projects)
+1. Follow us on Twitter [@scikit-yb](https://twitter.com/scikit_yb)
+2. Check out our [GitHub repo](https://github.com/DistrictDataLabs/yellowbrick).  Don't forget to fork us and star us while you're there!   
+3. Install Yellowbrick on your machine.  Details on how to do this can be found [here](https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
+4. In order to get familiar with Yellowbrick, we recommend checking out [examples by clicking here](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
+5. We also have a [quick start guide](https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+6. Please read the [contributor section](http://www.scikit-yb.org/en/latest/contributing.html)
+
 ## Project Ideas
-So what are the projects that we have in mind for this summer?  Yellowbrick's current release version is at Version 0.9.  We have a road map and are highly motivated to get us to 1.0.  The following projects help us move towards that 1.0 mark addressing key areas such as gridsearch, pipeline support, expanded tree based model support, improved PCA visualizer 
+So what are the projects that we have in mind for summer 2019?  Yellowbrick's current release version is at Version 0.9.  We have a road map and are highly motivated to get us to 1.0.  The following projects help us move towards that 1.0 mark addressing key areas such as gridsearch, pipeline support, expanded tree based model support, improved PCA visualizer and marketing/promotion of Yellowbrick.  Are goals are to support you this summer while helping Yellowbrick advance forward. 
+To help you navigate these projects, we have broken them down by topic area:
+
+- Gridsearch expansion
+- Pipeline support
+- PCA Visualizer strengthening 
+- Effect Plot for linear models
+- Classification Visualizer improvement (through calibration curve for tree-based models)
+- Marketing and research
+
 ###  Idea Title 
 Extend PCA Visualizer with Component-Feature Strength
 #### Abstract
@@ -125,13 +147,3 @@ The student would work to provide an optional heatmap and color bar underneath t
 Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component. For more information on this project, please reference this issue  (https://github.com/DistrictDataLabs/yellowbrick/issues/615).  
 
 
-#### Helpful Experience
-
-Knowledge of Python is required to complete this project.  Familiarity with machine learning and matplotlib is a plus.
-
-#### First steps
-
-1.)Install Yellowbrick on your machine.  Details on how to do this can be found here (https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
-2.)In order to get familiar with Yellowbrick, we recommend checking out examples here (https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
-3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
-4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
