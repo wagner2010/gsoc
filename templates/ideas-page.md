@@ -106,3 +106,27 @@ Knowledge of Python is required to complete this project.  Familiarity with mach
 3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
 4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
 
+###  Idea Title 
+Finish GridSearch Color Plot
+#### Abstract
+
+The student would complete a GridSearch Visualizers steps as follows: create a test file and run tests.  Create integration tets by generating basic visualizations using the gridsearch visualizer.  Update documentation 
+
+
+| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
+| -------------                          | ------------              | ------------- | -----------              |
+| {{ Novice}}                            | {{ High}} | {{ }}       | {{ [@foo][], [@bar][] }} |
+
+#### Technical Details
+The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue (https://github.com/DistrictDataLabs/yellowbrick/pull/261).  More examples and information can   For more information on this project, please reference this issue (https://github.com/DistrictDataLabs/yellowbrick/issues/691).
+
+#### Helpful Experience
+
+Knowledge of Python is required to complete this project.  Familiarity with machine learning and matplotlib is a plus.
+
+#### First steps
+
+1.)Install Yellowbrick on your machine.  Details on how to do this can be found here (https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
+2.)In order to get familiar with Yellowbrick, we recommend checking out examples here (https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb).  
+3.)We also have a quick start guide (https://github.com/DistrictDataLabs/yellowbrick/blob/master/docs/quickstart.rst).
+4.)Please read the contributor section (http://www.scikit-yb.org/en/latest/contributing.html)
