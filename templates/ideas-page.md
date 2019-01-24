@@ -74,7 +74,7 @@ The student would work to upgrade the existing PCA Visualizer by adding a number
 | {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458): 
+The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458)): 
 - Color points by heatmap for continuous y and add a colorbar 
 - add alpha parameter see the related issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/475) 
 - add random state to pass to PCA 
