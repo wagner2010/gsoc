@@ -64,7 +64,7 @@ The student would work to modify the ModelVisualizer [code](https://github.com/D
 The student would work to change the ModelVisualizer.estimator attribute to a @property.  Please note however that we will still have to **fit(), predict(), and score()** on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be **is_pipeline()** checking and other estimator access utilities.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
 
 ## PCA-Visualizer-strengthening
-###   Enhance Principal Component Analysis (PCA) Decompisition
+###   Enhance Principal Component Analysis (PCA) Decomposition
 #### Abstract
 
 The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.).
@@ -77,7 +77,8 @@ The student would work to upgrade the existing PCA Visualizer by adding a number
 The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458): 
 - Color points by heatmap for continuous y and add a colorbar 
 - add alpha parameter see the related issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/475) 
-- add random state to pass to PCA *allow user to pass in a PCA transformer/pipeline 
+- add random state to pass to PCA 
+- allow user to pass in a PCA transformer/pipeline 
 - update tests with better random data sets (more points; see manifold tests) 
 - include explained variance/noise variance (or explained variance ratio) in chart 
 - enance biplots in documentation. For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
