@@ -53,7 +53,7 @@ The student would complete a GridSearch Visualizer (includes finalizing the colo
 ###  Allow model visualizer to Wrap Pipeline objects
 #### Abstract
 
-The student would work to modify the ModelVisualizer [code here](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/yellowbrick/base.py#L274) to change the ModelVisualizer.estimator attribute to a @property - when setting the estimator property, we can perform a check to ensure that the Pipeline has a final_estimator attribute (e.g. that it is not a transformer pipeline). 
+The student would work to modify the ModelVisualizer [code](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/yellowbrick/base.py#L274) to change the ModelVisualizer.estimator attribute to a @property - when setting the estimator property, we can perform a check to ensure that the Pipeline has a final_estimator attribute (e.g. that it is not a transformer pipeline). 
 
 
 | **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
