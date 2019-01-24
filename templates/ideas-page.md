@@ -61,7 +61,7 @@ The student would work to modify the ModelVisualizer [code](https://github.com/D
 | {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student would work to change the ModelVisualizer.estimator attribute to a @property.  Please note however that we will still have to **fit(), predict(), and score()** on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be **is_pipeline()** checking and other estimator access utilities.  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
+The student would work to change the ModelVisualizer.estimator attribute to a @property.  Please note however that we will still have to **fit(), predict(), and score()** on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be **is_pipeline()** checking and other estimator access utilities.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
 
 ## PCA-Visualizer-strengthening
 ###   Enhance Principal Component Analysis (PCA) Decompisition
