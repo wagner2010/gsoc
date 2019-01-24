@@ -67,7 +67,7 @@ The student would work to change the ModelVisualizer.estimator attribute to a @p
 ###   Enhance Principal Component Analysis (PCA) Decompisition
 #### Abstract
 
-The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.)
+The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.).
 
 | **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
 | -------------                          | ------------              | ------------- | -----------              |
