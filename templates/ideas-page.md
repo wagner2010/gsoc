@@ -75,12 +75,12 @@ The student would work to upgrade the existing PCA Visualizer by adding a number
 
 #### Technical Details
 The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue ( Color points by class with a legend (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458): 
-*Color points by heatmap for continuous y and add a colorbar 
-*add alpha parameter see the related issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/475) 
-*add random state to pass to PCA *allow user to pass in a PCA transformer/pipeline 
-*update tests with better random data sets (more points; see manifold tests) 
-*include explained variance/noise variance (or explained variance ratio) in chart 
-*enance biplots in documentation. For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
+-*Color points by heatmap for continuous y and add a colorbar 
+-*add alpha parameter see the related issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/475) 
+-*add random state to pass to PCA *allow user to pass in a PCA transformer/pipeline 
+-*update tests with better random data sets (more points; see manifold tests) 
+-*include explained variance/noise variance (or explained variance ratio) in chart 
+-*enance biplots in documentation. For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
 
 ###  Extend PCA Visualizer with Component-Feature Strength
 #### Abstract
