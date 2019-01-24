@@ -46,7 +46,7 @@ The student would complete a GridSearch Visualizer's steps as follows: create a 
 | {{ Medium}}                            | {{ High}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
-The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
+The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
 
 ## Pipeline-support
 
