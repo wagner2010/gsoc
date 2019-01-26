@@ -96,7 +96,7 @@ The student would work to add a Probabilistic Calibration Curve Visualizer for T
 The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the **fit(), score(), and poof()** methods that creates a main calibration curve graph and a mean predicted value line graph.  See the class-balance documentation by clicking [here](http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html) and the initial probability calibration curve issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/365).
 
 ## Marketing-research-and-publication
-###  Write blogpost highlighting Yellowbrick for a Machine Learning project.
+###  Write a blog post highlighting Yellowbrick for a Machine Learning project.
 #### Abstract
 
 The student would write a blogpost highlighting Yellowbrick for a Machine Learning Project using a data source/domain of her choice.
