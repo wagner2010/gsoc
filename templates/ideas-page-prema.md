@@ -16,7 +16,7 @@ Yellowbrick is an open-source Python based [NumFOCUS affiliated](https://numfocu
 Knowledge of Python is required to complete all projects.  Familiarity with machine learning and matplotlib is a plus.  We also value collaboration, communication and openness.
 
 #### First steps (for all projects)
-1. Follow us on Twitter [@scikit-yb](https://twitter.com/scikit_yb)
+1. Follow and engage with us on Twitter [@scikit-yb](https://twitter.com/scikit_yb)
 2. Check out our [GitHub repo](https://github.com/DistrictDataLabs/yellowbrick).  Don't forget to fork us and star us while you're there!   
 3. Install Yellowbrick on your machine.  Details on how to do this can be found [here](https://github.com/DistrictDataLabs/yellowbrick#installing-yellowbrick).  
 4. In order to get familiar with Yellowbrick, we recommend running our [examples](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/examples/examples.ipynb) Jupyter Notebook.  
