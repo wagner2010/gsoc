@@ -40,11 +40,6 @@ To help you navigate these projects, we have broken them down by topic area:
 
 The student would complete a GridSearch Visualizer's steps as follows: create a test file and run tests, create integration tests by generating basic visualizations using the gridsearch visualizer and updating documentation to include all features. 
 
-
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Medium}}                            | {{ High}} | {{ }}         | {{ [@foo][], [@bar][] }} |
-
 #### Technical Details
 The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
 
@@ -55,11 +50,6 @@ The student would complete a GridSearch Visualizer (includes finalizing the colo
 
 The student would work to modify the ModelVisualizer [code](https://github.com/DistrictDataLabs/yellowbrick/blob/develop/yellowbrick/base.py#L274) to change the ModelVisualizer.estimator attribute to a @property - when setting the estimator property, we can perform a check to ensure that the Pipeline has a final_estimator attribute (e.g. that it is not a transformer pipeline). 
 
-
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
-
 #### Technical Details
 The student would work to change the ModelVisualizer.estimator attribute to a @property.  Please note however that we will still have to **fit(), predict(), and score()** on the entire pipeline, so this is a bit more nuanced than it seems on first glance. There will probably have to be **is_pipeline()** checking and other estimator access utilities.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/498).
 
@@ -68,10 +58,6 @@ The student would work to change the ModelVisualizer.estimator attribute to a @p
 #### Abstract
 
 The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.).
-
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Medium}}                            | {{ Medium}} | {{ }}         | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
 The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458)): 
@@ -88,10 +74,6 @@ The student would work to add a list of enhancements to our Principal Component 
 
 Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component.
 
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Moderate}}                          | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
-
 #### Technical Details
 Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component.  More information about this project can be found [here](https://github.com/DistrictDataLabs/yellowbrick/issues/615). 
 
@@ -100,10 +82,6 @@ Provide an optional heatmap and color bar underneath the PCA visualizer (by shif
 #### Abstract
 
 An effect plot is a visual tool that aids in interpreting linear models.
-
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Moderate}}                          | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
 An effect plot is a visual tool that aids in interpreting linear models.  It shows the weights as a bar plot so you can see whether the impact is positive or negative and also how large the variance is.  An example of an effect plot can be found [here](https://christophm.github.io/interpretable-ml-book/limo.html#visual-parameter-interpretation).  More information about this project can be found [here](https://github.com/DistrictDataLabs/yellowbrick/issues/604).
@@ -114,10 +92,6 @@ An effect plot is a visual tool that aids in interpreting linear models.  It sho
 
 The student would work to add a Probabilistic Calibration Curve Visualizer for Tree-based Models.
 
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Novice}}                            | {{ Low}} | {{ }}       | {{ [@foo][], [@bar][] }} |
-
 #### Technical Details
 The student will work to create a new feature for generating calibration curves via class CalibrationCurve (subclassing ClassificationScoreVisualizer).  The student will implement the **fit(), score(), and poof()** methods that creates a main calibration curve graph and a mean predicted value line graph.  See the class-balance documentation by clicking [here](http://www.scikit-yb.org/en/latest/api/classifier/class_balance.html) and the initial probability calibration curve issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/365).
 
@@ -126,10 +100,6 @@ The student will work to create a new feature for generating calibration curves 
 #### Abstract
 
 The student would write a blogpost highlighting Yellowbrick for a Machine Learning Project using a data source/domain of her choice.
-
-| **Intensity**                          | **Priority**              | **Involves**  | **Mentors**              |
-| -------------                          | ------------              | ------------- | -----------              |
-| {{ Novice}}                            | {{ Medium}} | {{ }}       | {{ [@foo][], [@bar][] }} |
 
 #### Technical Details
 The student would write a blog post based upon a data science project highlighting Yellowbrick for machine learning and visualization.  The student would go through the data science pipeline (problem statement, hypothesis, ingestion, storage, wrangling, statistical exploration, model selection, machine learning and visualization).  The blog post would center around this process.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/691).
