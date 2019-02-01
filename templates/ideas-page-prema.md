@@ -38,7 +38,7 @@ To help you navigate these projects, we have broken them down by topic area:
 ###  Finish GridSearch Color Plot
 #### Abstract
 
-The student would complete a GridSearch Visualizer's steps as follows: create a test file and run tests, create integration tests by generating basic visualizations using the gridsearch visualizer and updating documentation to include all features. 
+This work is important because it will allow us to complete our color plot for gridsearch in order to get it fully functional to provide users a better experience. 
 
 #### Technical Details
 The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
