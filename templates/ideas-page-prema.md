@@ -99,7 +99,7 @@ The student will work to create a new feature for generating calibration curves 
 ###  Write a blog post highlighting Yellowbrick for a Machine Learning project.
 #### Abstract
 
-The student would write a blogpost highlighting Yellowbrick for a Machine Learning Project using a data source/domain of her choice.
+The student would write a blogpost highlighting Yellowbrick for a machine learning project using a data source/domain of her choice.  The purpose of this project is for the student to use a machine learning task (i.e. regression, classification, clustering etc.) and dataset(s) of her choice to highlight Yellowbrick in your machine learning workflow.  As long as sound data science principles are applied, we give wide latitude (i.e. a traditional blogpost, a YouTube video series, etc.).  
 
 #### Technical Details
 The student would write a blog post based upon a data science project highlighting Yellowbrick for machine learning and visualization.  The student would go through the data science pipeline (problem statement, hypothesis, ingestion, storage, wrangling, statistical exploration, model selection, machine learning and visualization).  The blog post would center around this process.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/691).
