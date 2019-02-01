@@ -57,7 +57,7 @@ The student would work to change the ModelVisualizer.estimator attribute to a @p
 ###   Enhance Principal Component Analysis (PCA) Decomposition
 #### Abstract
 
-The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements (i.e. color points by class, color points by heatmap, allow user to pass in a PCA transformer/pipeline etc.).  The reason that we want to enhance PCA Decomposition visualizer is to make its functionality more robust abnd meaningful for users also while increasing its flexibility to handle random state.
+The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements is needed to make its functionality more robust abnd meaningful for users also while increasing its flexibility to handle random state.
 
 #### Technical Details
 The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458)): 
@@ -72,7 +72,7 @@ The student would work to add a list of enhancements to our Principal Component 
 ###  Extend PCA Visualizer with Component-Feature Strength
 #### Abstract
 
-Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component.  The student's work to extend the PC visualizer by providing an optional heat map and color bar will further pinpoint the magnitude of each feature principal component more clearly than is capable currently (by providing the extra information).   
+The student's work to extend the PCA visualizer by providing an optional heat map and color bar will further pinpoint the magnitude of each feature principal component more clearly than is capable currently (by providing the extra information).   
 
 #### Technical Details
 Provide an optional heatmap and color bar underneath the PCA visualizer (by shifting the lower axes) that shows the magnitude of each feature value to the component. This provides an explanation of which features are contributing the most to which component.  More information about this project can be found [here](https://github.com/DistrictDataLabs/yellowbrick/issues/615). 
