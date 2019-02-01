@@ -38,7 +38,7 @@ To help you navigate these projects, we have broken them down by topic area:
 ###  Finish GridSearch Color Plot
 #### Abstract
 
-The student would work to complete testing, integration and documentation updating for gridsearch color plot.  This work is important because it will allow the user to use our color plot for gridsearch in order to get and enjoy a better experience when hyperparamater tuning (i.e. using cross validation). 
+Visual hyperparameter tuning using high dimensional data visualization is a critical part of machine learning that is not fully developed in Yellowbrick.  The student will work towards a suite of visual diagnostic in both 2 and 3 dimension which ehances scikit-learn GridSearch estimator.  The purpose of this suite will be to allow ds’s to more intuitively understand the gridsearch process and find the best models more quickly.
 
 #### Technical Details
 The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  The student would work to create a test file and test stubs, complete integration tests with basic visualizations, and update relevant documentation with model selection visualizers.  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
@@ -60,14 +60,14 @@ The student would work to change the ModelVisualizer.estimator attribute to a @p
 The student would work to upgrade the existing PCA Visualizer by adding a number of individual enhancements needed to make its functionality more robust and meaningful for users also while increasing its flexibility to handle random state.
 
 #### Technical Details
-The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relavant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458)): 
+The student would work to add a list of enhancements to our Principal Component Analysis (PCA) Visualizer that are detailed in this issue (Color points by class with a legend) (See the relevant issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/458)): 
 - Color points by heatmap for continuous y and add a colorbar 
 - add alpha parameter see the related issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/475) 
 - add random state to pass to PCA 
 - allow user to pass in a PCA transformer/pipeline 
 - update tests with better random data sets (more points; see manifold tests) 
 - include explained variance/noise variance (or explained variance ratio) in chart 
-- enance biplots in documentation. For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
+- enhance biplots in documentation. For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/476).  
 
 ###  Extend PCA Visualizer with Component-Feature Strength
 #### Abstract
@@ -99,7 +99,7 @@ The student will work to create a new feature for generating calibration curves 
 ###  Write a blog post highlighting Yellowbrick for a Machine Learning project.
 #### Abstract
 
-The student would write a blogpost highlighting Yellowbrick for a machine learning project using a data source/domain of her choice.  The purpose of this project is for the student to use a machine learning task (i.e. regression, classification, clustering etc.) and dataset(s) of her choice to highlight the role and benefits of using the opensource project Yellowbrick in the student's machine learning workflow.  As long as sound data science principles are applied, the student will be given wide latitude for content and machine learning tasks applied (i.e. a traditional blogpost, a YouTube video series, etc.).  
+The student would write a blogpost highlighting Yellowbrick for a machine learning project using a data source/domain of her choice.  The purpose of this project is for the student to use a machine learning task (i.e. regression, classification, clustering etc.) and dataset(s) of her choice to highlight the role and benefits of using the open source project Yellowbrick in the student's machine learning workflow.  As long as sound data science principles are applied, the student will be given wide latitude for content and machine learning tasks applied (i.e. a traditional blogpost, a YouTube video series, etc.).  
 
 #### Technical Details
-The student would write a blog post based upon a data science project highlighting Yellowbrick for machine learning and visualization.  The student would go through the data science pipeline (problem statement, hypothesis, ingestion, storage, wrangling, statistical exploration, model selection, machine learning and visualization).  The blog post would center around this process.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/691).
+The student would write a blog post based upon a data science project highlighting Yellowbrick for machine learning and visualization.  The student would go through the data science pipeline (problem statement, hypothesis, ingestion, storage, wrangling, statistical exploration, model selection, machine learning and visualization).  The blog post would center on this process.  For more information on this project, please reference this issue by clicking [here](https://github.com/DistrictDataLabs/yellowbrick/issues/691).
