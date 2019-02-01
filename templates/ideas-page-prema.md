@@ -38,7 +38,7 @@ To help you navigate these projects, we have broken them down by topic area:
 ###  Finish GridSearch Color Plot
 #### Abstract
 
-The student would work to complete testing, integration and documentation updating for gridsearch color plot.  This work is important because it will allow the user to use our color plot for gridsearch in order to get it fully functional to provide users a better experience when hyperparamater tuning (i.e. using cross validation). 
+The student would work to complete testing, integration and documentation updating for gridsearch color plot.  This work is important because it will allow the user to use our color plot for gridsearch in order to get and enjoy a better experience when hyperparamater tuning (i.e. using cross validation). 
 
 #### Technical Details
 The student would complete a GridSearch Visualizer (includes finalizing the color plot) that was created in a prior issue [here](https://github.com/DistrictDataLabs/yellowbrick/pull/261).  For more information on this project, please reference this issue [here](https://github.com/DistrictDataLabs/yellowbrick/issues/308).
